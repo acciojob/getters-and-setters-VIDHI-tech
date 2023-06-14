@@ -26,6 +26,12 @@ class Teacher extends Person {
   }
 }
 
+// Create instances and invoke methods
+const student = new Student("John", 20);
+student.study();  // Output: John is studying.
+
+const teacher = new Teacher("Jane", 35);
+teacher.teach();  // Output: Jane is teaching.
 
 // Do not change the code below this line
 window.Person = Person;
